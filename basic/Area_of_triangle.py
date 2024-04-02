@@ -1,5 +1,13 @@
 # Python program to calculate area of triangle
 
+# Test case - 1
+# --------------------------------------
+# input:
+# base = 6
+# height = 8
+# output:
+# Area of triangle with base 6 and height 8 is 24
+
 # Take base and height inputs from the user
 
 base = int(input("Enter lenght of the base : "))

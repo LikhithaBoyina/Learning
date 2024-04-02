@@ -1,5 +1,19 @@
 # Program to swap two numbers
 
+# Test Case-1
+# -------------------------------------------------
+# a = 5
+# b = 6
+
+# Output:
+# Before swapping :
+# a = 4
+# b = 5
+# After swapping :
+# a = 5
+# b = 4
+
+
 a = int(input("Enter number : "))
 b = int(input("Enter another number : "))
 

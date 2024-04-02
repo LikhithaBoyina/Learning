@@ -1,12 +1,21 @@
 # prgram to generate random number
+
+# Test case - 1
+# -----------------------------
+# input:
+# lb = 10
+# ub = 20
+
+# output:
+# Generated number : 12
 # first we need to import module called random to use a method called randint
 
 import random
 
 # As randint module has two parameters user need to specify two boundaries to get a number with in the range 
-a = int(input("Enter Lower boundary : "))
-b = int(input("Enter Upper boundary : "))
+lb = int(input("Enter Lower boundary : "))
+ub = int(input("Enter Upper boundary : "))
 
-c = random.randint(a,b)
+output = random.randint(lb,ub) 
 
-print("Generated number : ",c)
+print("Generated number : ",output)
